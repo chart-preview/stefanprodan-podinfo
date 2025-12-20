@@ -20,15 +20,12 @@ jobs:
                 "owner": "${{ github.repository_owner }}",
                 "repo": "${{ github.event.repository.name }}",
                 "ref": "${{ github.event.pull_request.head.sha }}",
-                "chartPath": "charts/grafana"
+                "chartPath": "charts/podinfo"
               },
               "values": {
-                "rbac": {
-                  "namespaced": true
-                },
                 "ingress": {
                   "enabled": true,
-                  "ingressClassName": "nginx"
+                  "className": "nginx"
                 }
               },
               "head": {

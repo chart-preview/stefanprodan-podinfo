@@ -14,7 +14,7 @@ image:
 
 ui:
   color: "#34577c"
-  message: ""
+  message: "Chart Preview Environment Demo (using Pod Info)"
   logo: ""
 
 # failure conditions
