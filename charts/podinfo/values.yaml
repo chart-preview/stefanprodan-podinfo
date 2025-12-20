@@ -14,7 +14,7 @@ image:
 
 ui:
   color: "#2ecc71"
-  message: "Preview Environment Demo"
+  message: "Chart Preview Environment Demo"
   logo: ""
 
 # failure conditions
