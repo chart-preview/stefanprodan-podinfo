@@ -120,6 +120,10 @@ spec:
           {{- if .Values.extraEnvs }}
 {{ toYaml .Values.extraEnvs | indent 10 }}
           {{- end }}
+          - name: PREVIEW_MODE
+            value: "true"
+          - name: CHART_VERSION
+            value: {{ .Chart.Version | quote }}
           ports:
             - name: http
               containerPort: {{ .Values.service.httpPort | default 9898 }}
