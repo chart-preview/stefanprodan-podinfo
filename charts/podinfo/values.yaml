@@ -13,8 +13,8 @@ image:
   pullSecrets: []
 
 ui:
-  color: "#2ecc71"
-  message: "Chart Preview Environment Demo"
+  color: "#34577c"
+  message: "Chart Preview Environment Demo (using Pod Info)"
   logo: ""
 
 # failure conditions
