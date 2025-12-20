@@ -13,8 +13,8 @@ image:
   pullSecrets: []
 
 ui:
-  color: "#34577c"
-  message: ""
+  color: "#2ecc71"
+  message: "Preview Environment Demo"
   logo: ""
 
 # failure conditions
